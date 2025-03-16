@@ -61,3 +61,10 @@ for (let i = 1; i <= 50; i++) {
     console.log(i);
   }
 }
+
+//durch 7 teilbar
+let count2 = 0;
+for (let i = 1; i <= 50; i++) {
+  if (i % 7 === 0) count2++;
+}
+console.log(count2);
