@@ -89,3 +89,8 @@ for (let i = 1; i <= 30; i++) {
     console.log(i);
   }
 }
+
+//Prüfen, ob eine Zahl eine Vielfache von 3 und 4 ist (durch 3 oder 4 teilbar)
+for (let i = 1; i <= 30; i++) {
+  if (i % 3 === 0 && i % 4 === 0) console.log(i, "ist vielfache");
+}
