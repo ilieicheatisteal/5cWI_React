@@ -94,3 +94,18 @@ for (let i = 1; i <= 30; i++) {
 for (let i = 1; i <= 30; i++) {
   if (i % 3 === 0 && i % 4 === 0) console.log(i, "ist vielfache");
 }
+
+//quadratzahlen ausgeben
+for (let i = 1; i <= 10; i++) {
+  console.log(i * i);
+}
+
+//summe aller zahlen ausser vielfache von 5
+let sum2 = 0;
+for (let i = 1; i <= 30; i++) {
+  if (i % 5 === 0) sum2 == i;
+  else {
+    sum2 += i;
+  }
+}
+console.log("Summe:", sum2);
