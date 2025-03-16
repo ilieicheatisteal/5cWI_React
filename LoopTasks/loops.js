@@ -77,3 +77,15 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
   }
 }
+
+//logische verknüpfung
+for (let i = 1; i <= 30; i++) {
+  if (i % 2 === 0 && i % 3 === 0) console.log("Even & Divisible by 3");
+  else if (i % 3 === 0) {
+    console.log("Divisible by 3");
+  } else if (i % 2 === 0) {
+    console.log("Even");
+  } else {
+    console.log(i);
+  }
+}
