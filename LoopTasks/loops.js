@@ -18,3 +18,29 @@ for (let i = 1; i <= 50; i++) {
     else console.log(i);
   }
 
+//primzahlen
+for (let i = 2; i <= 50; i++) {
+  let primzahl = true;
+
+  for (let x = 2; x < i; x++) {
+      if (i % x === 0) {
+          primzahl = false;
+          break;
+      }
+  }
+  if (primzahl) {
+      console.log(i);
+  }
+}
+
+//teiler finden
+for (i = 1; i <= 30; i++) {
+  let count = 0;
+  for (y = 1; y <= 30; y++) {
+      if (i % y === 0) {
+          count += 1;
+      }
+  }
+  console.log(i, "hat", count);
+}
+
